@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8D2D5C1880043700435FCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8D2D5B1880043700435FCF /* UIKit.framework */; };
+		6B8D2D5E1880043700435FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8D2D5D1880043700435FCF /* Foundation.framework */; };
+		6B8D2D601880043700435FCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8D2D5F1880043700435FCF /* CoreGraphics.framework */; };
+		6B8D2D661880043700435FCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D2D641880043700435FCF /* InfoPlist.strings */; };
+		6B8D2D681880043700435FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D2D671880043700435FCF /* main.m */; };
+		6B8D2D6C1880043700435FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D2D6B1880043700435FCF /* AppDelegate.m */; };
+		6B8D2D6E1880043700435FCF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D2D6D1880043700435FCF /* Default.png */; };
+		6B8D2D701880043700435FCF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D2D6F1880043700435FCF /* Default@2x.png */; };
+		6B8D2D721880043700435FCF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D2D711880043700435FCF /* Default-568h@2x.png */; };
+		6B8D2D7D1880045100435FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8D2D5D1880043700435FCF /* Foundation.framework */; };
+		6B8D2D90188005C900435FCF /* Buffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D2D8F188005C900435FCF /* Buffer.m */; };
+		6B913A311883A6A100B7436C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B913A301883A6A100B7436C /* CoreAudio.framework */; };
+		6BA9555F18839A570012934D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9555E18839A570012934D /* RootViewController.m */; };
+		6BA9556518839F4B0012934D /* libSinVoicelib.a in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D2D7C1880045100435FCF /* libSinVoicelib.a */; };
+		6BA9556C18839F840012934D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB7C7591881527C00F8EC51 /* AudioToolbox.framework */; };
+		6BA955891883DBDB0012934D /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA955881883DBDB0012934D /* Record.m */; };
+		6BA9558C1883DDFE0012934D /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9558B1883DDFE0012934D /* PcmPlayer.m */; };
+		6BA9558F1883E0E00012934D /* SinVoicePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9558E1883E0E00012934D /* SinVoicePlayer.m */; };
+		6BA955921883E7CC0012934D /* SinVoiceRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA955911883E7CC0012934D /* SinVoiceRecognition.m */; };
+		6BA9559E1883ECB40012934D /* AQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA955951883ECB40012934D /* AQPlayer.m */; };
+		6BA9559F1883ECB40012934D /* AQRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA955971883ECB40012934D /* AQRecorder.m */; };
+		6BA955A01883ECB40012934D /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA955991883ECB40012934D /* AudioManager.m */; };
+		6BA955A11883ECB40012934D /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9559B1883ECB40012934D /* AudioPlayer.m */; };
+		6BA955A21883ECB40012934D /* OpenALPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9559D1883ECB40012934D /* OpenALPlayer.m */; };
+		6BB53B1F1883A7050081E63E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B913A301883A6A100B7436C /* CoreAudio.framework */; };
+		6BB7C7521881494A00F8EC51 /* Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7C7511881494A00F8EC51 /* Encoder.m */; };
+		6BB7C75A1881527C00F8EC51 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB7C7591881527C00F8EC51 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BA9556018839CE80012934D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8D2D501880043700435FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8D2D7B1880045100435FCF;
+			remoteInfo = SinVoicelib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B8D2D7A1880045100435FCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B36548D188018E000CCCC21 /* VoiceRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognition.h; sourceTree = "<group>"; };
+		6B36548E188018E000CCCC21 /* VoiceRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognition.m; sourceTree = "<group>"; };
+		6B8D2D581880043700435FCF /* SinVoice_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinVoice_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8D2D5B1880043700435FCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B8D2D5D1880043700435FCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B8D2D5F1880043700435FCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B8D2D631880043700435FCF /* SinVoice_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SinVoice_Demo-Info.plist"; sourceTree = "<group>"; };
+		6B8D2D651880043700435FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B8D2D671880043700435FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B8D2D691880043700435FCF /* SinVoice_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinVoice_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		6B8D2D6A1880043700435FCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B8D2D6B1880043700435FCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8D2D6D1880043700435FCF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6B8D2D6F1880043700435FCF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6B8D2D711880043700435FCF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B8D2D7C1880045100435FCF /* libSinVoicelib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSinVoicelib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8D2D801880045100435FCF /* SinVoicelib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinVoicelib-Prefix.pch"; sourceTree = "<group>"; };
+		6B8D2D8B188004D300435FCF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		6B8D2D8E188005C900435FCF /* Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buffer.h; sourceTree = "<group>"; };
+		6B8D2D8F188005C900435FCF /* Buffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buffer.m; sourceTree = "<group>"; };
+		6B913A301883A6A100B7436C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6BA9555D18839A570012934D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6BA9555E18839A570012934D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6BA955721883A5330012934D /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQPlayer.h; path = "lib/Debug-iphoneos/include/SinVoicelib/AQPlayer.h"; sourceTree = SOURCE_ROOT; };
+		6BA955731883A5330012934D /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQRecorder.h; path = "lib/Debug-iphoneos/include/SinVoicelib/AQRecorder.h"; sourceTree = SOURCE_ROOT; };
+		6BA955741883A5330012934D /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioManager.h; path = "lib/Debug-iphoneos/include/SinVoicelib/AudioManager.h"; sourceTree = SOURCE_ROOT; };
+		6BA955751883A5330012934D /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayer.h; path = "lib/Debug-iphoneos/include/SinVoicelib/AudioPlayer.h"; sourceTree = SOURCE_ROOT; };
+		6BA955851883D84C0012934D /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		6BA955871883DBDB0012934D /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		6BA955881883DBDB0012934D /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		6BA9558A1883DDFE0012934D /* PcmPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		6BA9558B1883DDFE0012934D /* PcmPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+		6BA9558D1883E0E00012934D /* SinVoicePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinVoicePlayer.h; sourceTree = "<group>"; };
+		6BA9558E1883E0E00012934D /* SinVoicePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinVoicePlayer.m; sourceTree = "<group>"; };
+		6BA955901883E7CC0012934D /* SinVoiceRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinVoiceRecognition.h; sourceTree = "<group>"; };
+		6BA955911883E7CC0012934D /* SinVoiceRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinVoiceRecognition.m; sourceTree = "<group>"; };
+		6BA955941883ECB40012934D /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayer.h; sourceTree = "<group>"; };
+		6BA955951883ECB40012934D /* AQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQPlayer.m; sourceTree = "<group>"; };
+		6BA955961883ECB40012934D /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQRecorder.h; sourceTree = "<group>"; };
+		6BA955971883ECB40012934D /* AQRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQRecorder.m; sourceTree = "<group>"; };
+		6BA955981883ECB40012934D /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		6BA955991883ECB40012934D /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		6BA9559A1883ECB40012934D /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		6BA9559B1883ECB40012934D /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		6BA9559C1883ECB40012934D /* OpenALPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALPlayer.h; sourceTree = "<group>"; };
+		6BA9559D1883ECB40012934D /* OpenALPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenALPlayer.m; sourceTree = "<group>"; };
+		6BB7C7501881494A00F8EC51 /* Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encoder.h; sourceTree = "<group>"; };
+		6BB7C7511881494A00F8EC51 /* Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encoder.m; sourceTree = "<group>"; };
+		6BB7C7591881527C00F8EC51 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8D2D551880043700435FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B913A311883A6A100B7436C /* CoreAudio.framework in Frameworks */,
+				6BA9556C18839F840012934D /* AudioToolbox.framework in Frameworks */,
+				6B8D2D5C1880043700435FCF /* UIKit.framework in Frameworks */,
+				6B8D2D5E1880043700435FCF /* Foundation.framework in Frameworks */,
+				6B8D2D601880043700435FCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8D2D791880045100435FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB53B1F1883A7050081E63E /* CoreAudio.framework in Frameworks */,
+				6BB7C75A1881527C00F8EC51 /* AudioToolbox.framework in Frameworks */,
+				6B8D2D7D1880045100435FCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8D2D4F1880043700435FCF = {
+			isa = PBXGroup;
+			children = (
+				6B913A301883A6A100B7436C /* CoreAudio.framework */,
+				6B8D2D611880043700435FCF /* SinVoice_Demo */,
+				6B8D2D7E1880045100435FCF /* SinVoicelib */,
+				6B8D2D5A1880043700435FCF /* Frameworks */,
+				6B8D2D591880043700435FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8D2D591880043700435FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8D2D581880043700435FCF /* SinVoice_Demo.app */,
+				6B8D2D7C1880045100435FCF /* libSinVoicelib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8D2D5A1880043700435FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BB7C7591881527C00F8EC51 /* AudioToolbox.framework */,
+				6B8D2D5B1880043700435FCF /* UIKit.framework */,
+				6B8D2D5D1880043700435FCF /* Foundation.framework */,
+				6B8D2D5F1880043700435FCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8D2D611880043700435FCF /* SinVoice_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6BA955721883A5330012934D /* AQPlayer.h */,
+				6BA955731883A5330012934D /* AQRecorder.h */,
+				6BA955741883A5330012934D /* AudioManager.h */,
+				6BA955751883A5330012934D /* AudioPlayer.h */,
+				6B8D2D6A1880043700435FCF /* AppDelegate.h */,
+				6B8D2D6B1880043700435FCF /* AppDelegate.m */,
+				6BA9555D18839A570012934D /* RootViewController.h */,
+				6BA9555E18839A570012934D /* RootViewController.m */,
+				6B8D2D621880043700435FCF /* Supporting Files */,
+			);
+			path = SinVoice_Demo;
+			sourceTree = "<group>";
+		};
+		6B8D2D621880043700435FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8D2D631880043700435FCF /* SinVoice_Demo-Info.plist */,
+				6B8D2D641880043700435FCF /* InfoPlist.strings */,
+				6B8D2D671880043700435FCF /* main.m */,
+				6B8D2D691880043700435FCF /* SinVoice_Demo-Prefix.pch */,
+				6B8D2D6D1880043700435FCF /* Default.png */,
+				6B8D2D6F1880043700435FCF /* Default@2x.png */,
+				6B8D2D711880043700435FCF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B8D2D7E1880045100435FCF /* SinVoicelib */ = {
+			isa = PBXGroup;
+			children = (
+				6BA955931883EC910012934D /* 录音与播放 */,
+				6B8D2D8B188004D300435FCF /* Common.h */,
+				6B8D2D8E188005C900435FCF /* Buffer.h */,
+				6B8D2D8F188005C900435FCF /* Buffer.m */,
+				6BA955871883DBDB0012934D /* Record.h */,
+				6BA955881883DBDB0012934D /* Record.m */,
+				6BA9558A1883DDFE0012934D /* PcmPlayer.h */,
+				6BA9558B1883DDFE0012934D /* PcmPlayer.m */,
+				6BA9558D1883E0E00012934D /* SinVoicePlayer.h */,
+				6BA9558E1883E0E00012934D /* SinVoicePlayer.m */,
+				6BA955901883E7CC0012934D /* SinVoiceRecognition.h */,
+				6BA955911883E7CC0012934D /* SinVoiceRecognition.m */,
+				6B36548D188018E000CCCC21 /* VoiceRecognition.h */,
+				6B36548E188018E000CCCC21 /* VoiceRecognition.m */,
+				6BB7C7501881494A00F8EC51 /* Encoder.h */,
+				6BB7C7511881494A00F8EC51 /* Encoder.m */,
+				6BA955851883D84C0012934D /* MacroDefine.h */,
+				6B8D2D7F1880045100435FCF /* Supporting Files */,
+			);
+			path = SinVoicelib;
+			sourceTree = "<group>";
+		};
+		6B8D2D7F1880045100435FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8D2D801880045100435FCF /* SinVoicelib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BA955931883EC910012934D /* 录音与播放 */ = {
+			isa = PBXGroup;
+			children = (
+				6BA955941883ECB40012934D /* AQPlayer.h */,
+				6BA955951883ECB40012934D /* AQPlayer.m */,
+				6BA955961883ECB40012934D /* AQRecorder.h */,
+				6BA955971883ECB40012934D /* AQRecorder.m */,
+				6BA955981883ECB40012934D /* AudioManager.h */,
+				6BA955991883ECB40012934D /* AudioManager.m */,
+				6BA9559A1883ECB40012934D /* AudioPlayer.h */,
+				6BA9559B1883ECB40012934D /* AudioPlayer.m */,
+				6BA9559C1883ECB40012934D /* OpenALPlayer.h */,
+				6BA9559D1883ECB40012934D /* OpenALPlayer.m */,
+			);
+			path = "录音与播放";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8D2D571880043700435FCF /* SinVoice_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8D2D751880043700435FCF /* Build configuration list for PBXNativeTarget "SinVoice_Demo" */;
+			buildPhases = (
+				6B8D2D541880043700435FCF /* Sources */,
+				6B8D2D551880043700435FCF /* Frameworks */,
+				6B8D2D561880043700435FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA9556118839CE80012934D /* PBXTargetDependency */,
+			);
+			name = SinVoice_Demo;
+			productName = SinVoice_Demo;
+			productReference = 6B8D2D581880043700435FCF /* SinVoice_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8D2D7B1880045100435FCF /* SinVoicelib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8D2D851880045100435FCF /* Build configuration list for PBXNativeTarget "SinVoicelib" */;
+			buildPhases = (
+				6B8D2D781880045100435FCF /* Sources */,
+				6B8D2D791880045100435FCF /* Frameworks */,
+				6B8D2D7A1880045100435FCF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinVoicelib;
+			productName = SinVoicelib;
+			productReference = 6B8D2D7C1880045100435FCF /* libSinVoicelib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8D2D501880043700435FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "马远征";
+			};
+			buildConfigurationList = 6B8D2D531880043700435FCF /* Build configuration list for PBXProject "SinVoice_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B8D2D4F1880043700435FCF;
+			productRefGroup = 6B8D2D591880043700435FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8D2D571880043700435FCF /* SinVoice_Demo */,
+				6B8D2D7B1880045100435FCF /* SinVoicelib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8D2D561880043700435FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8D2D661880043700435FCF /* InfoPlist.strings in Resources */,
+				6B8D2D6E1880043700435FCF /* Default.png in Resources */,
+				6B8D2D701880043700435FCF /* Default@2x.png in Resources */,
+				6B8D2D721880043700435FCF /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8D2D541880043700435FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA9556518839F4B0012934D /* libSinVoicelib.a in Sources */,
+				6B8D2D681880043700435FCF /* main.m in Sources */,
+				6B8D2D6C1880043700435FCF /* AppDelegate.m in Sources */,
+				6BA9555F18839A570012934D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8D2D781880045100435FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA955891883DBDB0012934D /* Record.m in Sources */,
+				6BA955921883E7CC0012934D /* SinVoiceRecognition.m in Sources */,
+				6BA9559F1883ECB40012934D /* AQRecorder.m in Sources */,
+				6B8D2D90188005C900435FCF /* Buffer.m in Sources */,
+				6BA955A11883ECB40012934D /* AudioPlayer.m in Sources */,
+				6BA955A21883ECB40012934D /* OpenALPlayer.m in Sources */,
+				6BA9558F1883E0E00012934D /* SinVoicePlayer.m in Sources */,
+				6BA9559E1883ECB40012934D /* AQPlayer.m in Sources */,
+				6BA9558C1883DDFE0012934D /* PcmPlayer.m in Sources */,
+				6BA955A01883ECB40012934D /* AudioManager.m in Sources */,
+				6BB7C7521881494A00F8EC51 /* Encoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BA9556118839CE80012934D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8D2D7B1880045100435FCF /* SinVoicelib */;
+			targetProxy = 6BA9556018839CE80012934D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B8D2D641880043700435FCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8D2D651880043700435FCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8D2D731880043700435FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B8D2D741880043700435FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8D2D761880043700435FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinVoice_Demo/SinVoice_Demo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
+				INFOPLIST_FILE = "SinVoice_Demo/SinVoice_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DEFCF194-AA9C-407F-89EE-8CB3335CDD7A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B8D2D771880043700435FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinVoice_Demo/SinVoice_Demo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
+				INFOPLIST_FILE = "SinVoice_Demo/SinVoice_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "987DEC65-66F3-49E6-A2C0-25998D38B093";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B8D2D861880045100435FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/SinVoicelib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinVoicelib/SinVoicelib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B8D2D871880045100435FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/SinVoicelib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinVoicelib/SinVoicelib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8D2D531880043700435FCF /* Build configuration list for PBXProject "SinVoice_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8D2D731880043700435FCF /* Debug */,
+				6B8D2D741880043700435FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8D2D751880043700435FCF /* Build configuration list for PBXNativeTarget "SinVoice_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8D2D761880043700435FCF /* Debug */,
+				6B8D2D771880043700435FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8D2D851880045100435FCF /* Build configuration list for PBXNativeTarget "SinVoicelib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8D2D861880045100435FCF /* Debug */,
+				6B8D2D871880045100435FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8D2D501880043700435FCF /* Project object */;
+}

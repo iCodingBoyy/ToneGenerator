@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start reg" />
+
+        <Button
+            android:id="@+id/stop_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stop reg" />
+
+        <TextView
+            android:id="@+id/regtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recognised text" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input_send_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start play" />
+
+        <Button
+            android:id="@+id/stop_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stop play" />
+
+        <TextView
+            android:id="@+id/playtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="play text" />
+    </LinearLayout>
+
+</LinearLayout>
